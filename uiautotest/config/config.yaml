@@ -1,0 +1,8 @@
+# 测试环境的基础URL，用于浏览器访问的起始地址
+base_url: https://uatninebot.segway-ninebot.com:8002/main.aspx
+# 浏览器相关配置
+browser:
+  # 使用的浏览器类型，这里指定为chromium
+  type: chromium
+  # 是否以无头模式运行浏览器，true为无头模式，不显示浏览器界面
+  headless: false

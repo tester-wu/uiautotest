@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"
+    测试登录流程的函数
+    :param page: 浏览器页面对象，用于操作浏览器页面
+    ","36347","test_example","tests","Wed Apr 23 09:24:28 CST 2025","broken","Wed Apr 23 09:25:04 CST 2025","","test_example","",""

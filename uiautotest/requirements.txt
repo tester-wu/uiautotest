@@ -1,0 +1,7 @@
+# 核心测试框架
+pytest
+playwright
+allure-pytest
+
+# 辅助工具
+pyyaml

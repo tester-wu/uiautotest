@@ -1,0 +1,1 @@
+{"name": "test_example", "status": "skipped", "description": "\n    测试登录流程的函数\n    :param page: 浏览器页面对象，用于操作浏览器页面\n    ", "start": 1745387454267, "stop": 1745387454267, "uuid": "933d5745-9649-4b24-8337-4f82fe4d43a5", "testCaseId": "ac64ba0699b9eb4df3e3501d3d9cccf5", "fullName": "tests.test_example#test_example"}

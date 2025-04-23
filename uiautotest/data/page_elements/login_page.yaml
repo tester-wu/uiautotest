@@ -1,0 +1,13 @@
+# 登录页面中Active Directory文本元素的定位方式
+active_directory_text: "Active Directory"
+# 登录页面中用户名输入框元素的定位方式
+username_textbox: "用户帐户"
+# 登录页面中密码输入框元素的定位方式
+password_textbox: "密码"
+## 登录页面中登录按钮元素的定位方式
+login_button: "登录"
+# 登录页面中关闭链接元素的定位方式，该元素在iframe内
+close_link: "iframe[name=\"InlineDialog_Iframe\"]"
+# 登录页面中Microsoft Dynamics链接元素的定位方式
+microsoft_dynamics_link: "Microsoft Dynamics"
+

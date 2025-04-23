@@ -1,0 +1,38 @@
+# 日志配置版本
+version: 1
+# 不禁用现有的日志记录器
+disable_existing_loggers: false
+# 日志格式配置
+formatters:
+  # 定义名为simple的日志格式
+  simple:
+    # 日志记录的具体格式，包含时间、日志器名称、日志级别和消息内容
+    format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+# 日志处理器配置
+handlers:
+  # 定义名为file_handler的文件处理器
+  file_handler:
+    # 处理器类型为将日志写入文件
+    class: logging.FileHandler
+    # 日志级别为DEBUG，记录所有级别的日志
+    level: DEBUG
+    # 使用上面定义的simple格式
+    formatter: simple
+    # 日志文件的存储路径
+    filename: logs/test.log
+# 日志记录器配置
+loggers:
+  # 定义名为test_logger的日志记录器
+  test_logger:
+    # 日志记录器的日志级别为DEBUG
+    level: DEBUG
+    # 使用file_handler处理器处理日志
+    handlers: [file_handler]
+    # 不将日志传播到父日志记录器
+    propagate: no
+# 根日志记录器配置
+root:
+  # 根日志记录器的日志级别为DEBUG
+  level: DEBUG
+  # 根日志记录器不使用任何处理器
+  handlers: []
